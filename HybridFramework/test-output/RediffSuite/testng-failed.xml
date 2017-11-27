@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RediffSuite]">
+  <test name="SendMailTest(failed)">
+    <classes>
+      <class name="com.hybrid.testcases.SendMail">
+        <methods>
+          <include name="tearDown"/>
+          <include name="SendProcedure" invocation-numbers="0 2 3"/>
+        </methods>
+      </class> <!-- com.hybrid.testcases.SendMail -->
+    </classes>
+  </test> <!-- SendMailTest(failed) -->
+</suite> <!-- Failed suite [RediffSuite] -->

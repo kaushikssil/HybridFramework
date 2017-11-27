@@ -1,0 +1,72 @@
+#Automation the rediffmail application
+
+Business Scenario of the application can be :
+
+a) Send Mail Procedure
+b) Saving an email
+c) Deleting a email  - which will send it to trash
+d) Trashing an email - permanent deletion
+
+
+Any business scenario will have transactional steps. For e.g the Send mail procedure will have the 
+following transactional steps
+
+1. Opening the browser
+2. Navigate to the url
+3. Type the username - Edit box
+4. Type the password - Edit box
+5. Click the GO button - Button
+6  Click on the Write Mail - Link
+7. Type the To  - Edit box
+8. Type in subject area - Edit box
+9. Type in Compose Area - Edit box
+10. Click on the Send - Link
+11. Click on Logout - Link
+
+These 11 steps will be part of Selenium script. Apart from that any automation script should contain 
+validation points without the script is dead script. 
+
+A) The validation points for the landing page /Login page of Rediffmail application can be an image, 
+a static text or labels of a button or text of the edit boxes.
+
+1. Validation points for the landing - Test of username field, text of password field, label of Go 
+button
+
+B) The validation point for the Inbox page can be the text of the Inbox link. This validation point is 
+taken to ensure that we are in the INBOX page.
+
+1. Validation point for the Inbox page - Text of Inbox link
+
+C) Validation of respective web elements in the inbox page for the purpose of sending an email
+
+1. Validate the text of the TO link, validate the text of the Subject area , Validation of Send link 
+by validating its text, Validation of Logout link's text.
+
+
+If we create these validation, the steps in the automation script will be the following:
+
+1. Opening the browser
+2. Navigate to the url
+3. Single validation/checkpoint to validate that we are in the landing page - Rediffmail static text
+4. Validating username edit box text
+5. Type the username - Edit box
+6. Validating password edit box text
+7. Type the password - Edit box
+8. Validation the label of GO button
+9. Click the GO button - Button
+10. Validation point to ensure that we are in the Inbox page - Validating the text of the inbox link
+11.  Validating the text of the Write Mail link
+12. Click on the Write Mail - Link
+13. Validating the text of the TO link
+14. Type the To  - Edit box
+15. Validating the text of the Subject edit box
+16. Type in subject area - Edit box
+17. Type in Compose Area - Edit box
+18. Validating the text of the Send link
+19. Click on the Send - Link
+20. Validating the text of logout link
+21. Click on Logout - Link
+
+
+
+

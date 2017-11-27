@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RediffSuite">
+  <test name="SendMailTest">
+    <classes>
+      <class name="com.hybrid.testcases.SendMail"/>
+    </classes>
+  </test>
+  <!--
+  <test name="SaveMailTest">
+    <classes>
+      <class name="com.hybrid.testcases.SaveEmail"/>
+    </classes>
+  </test> 
+  <test name="DeleteMailTest">
+    <classes>
+      <class name="com.hybrid.testcases.DeleteEmail"/>
+    </classes>
+  </test> 
+  --> <!-- Test -->
+</suite> <!-- RediffSuite -->

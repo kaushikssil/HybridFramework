@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RediffSuite" duration-ms="91152" started-at="2017-11-23T01:28:51Z" finished-at="2017-11-23T01:30:22Z">
+    <groups>
+    </groups>
+    <test name="SendMailTest" duration-ms="91152" started-at="2017-11-23T01:28:51Z" finished-at="2017-11-23T01:30:22Z">
+      <class name="com.hybrid.testcases.SendMail">
+        <test-method status="SKIP" signature="SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="SendProcedure" duration-ms="33" started-at="2017-11-23T06:58:51Z" data-provider="TestData" finished-at="2017-11-23T06:58:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Firefox, cArea=Sending a Test mail for Testing, email=selenium.testmay2017@rediffmail.com, runMode=NO, sub=Testing}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is set to NO for Firefox browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is set to NO for Firefox browser
+	at com.hybrid.testcases.SendMail.SendProcedure(SendMail.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendProcedure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="tearDown" is-config="true" duration-ms="1159" started-at="2017-11-23T06:58:51Z" finished-at="2017-11-23T06:58:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendProcedure status=SKIP method=SendMail.SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="SendProcedure" duration-ms="88302" started-at="2017-11-23T06:58:52Z" data-provider="TestData" finished-at="2017-11-23T07:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Chrome, cArea=Sending a Test mail for Development, email=selenium.testmay2017@rediffmail.com, runMode=YES, sub=Development}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendProcedure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="tearDown" is-config="true" duration-ms="833" started-at="2017-11-23T07:00:21Z" finished-at="2017-11-23T07:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendProcedure status=SUCCESS method=SendMail.SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="SendProcedure" duration-ms="24" started-at="2017-11-23T07:00:21Z" data-provider="TestData" finished-at="2017-11-23T07:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=IE, cArea=Sending a Test mail for Production, email=selenium.testmay2017@rediffmail.com, runMode=NO, sub=Production}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is set to NO for IE browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is set to NO for IE browser
+	at com.hybrid.testcases.SendMail.SendProcedure(SendMail.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendProcedure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="tearDown" is-config="true" duration-ms="336" started-at="2017-11-23T07:00:21Z" finished-at="2017-11-23T07:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendProcedure status=SKIP method=SendMail.SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="SendProcedure" duration-ms="12" started-at="2017-11-23T07:00:22Z" data-provider="TestData" finished-at="2017-11-23T07:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=Opera, cArea=Sending a Test mail for Administration, email=selenium.testmay2017@rediffmail.com, runMode=NO, sub=Administration}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode is set to NO for Opera browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode is set to NO for Opera browser
+	at com.hybrid.testcases.SendMail.SendProcedure(SendMail.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendProcedure -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77]" name="tearDown" is-config="true" duration-ms="344" started-at="2017-11-23T07:00:22Z" finished-at="2017-11-23T07:00:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendProcedure status=SKIP method=SendMail.SendProcedure(java.util.Hashtable)[pri:0, instance:com.hybrid.testcases.SendMail@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hybrid.testcases.SendMail -->
+    </test> <!-- SendMailTest -->
+  </suite> <!-- RediffSuite -->
+</testng-results>

@@ -1,0 +1,10 @@
+The configuration package consists of the following:
+
+1) Object repository file - All objects and their locating address are kept here
+Any changes in the locating address will be done here and the same will be reflected 
+in the scripts of the framework - OR.properties
+
+This file will be also used to define the environment. For example, if the environment is set to
+"UAT", the script should have code to immediately refer the username, password and URL defined in
+UAT.properties file. That means the config package will also have the testing based properties for 
+e.g UAT.properties or System.properties 
